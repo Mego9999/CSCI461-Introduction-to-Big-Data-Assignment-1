@@ -63,10 +63,15 @@ mkdir -p bd-a1/service-result (Make a directory in bd-a1 called service-result )
 
 Ever one of these take container id and file to download and put it in service-result:
 docker cp cc192d1c389a:/home/doc-bd-a1/res_dpre.csv bd-a1/service-result/
+
 docker cp cc192d1c389a:/home/doc-bd-a1/eda-in-1.txt bd-a1/service-result/
+
 docker cp cc192d1c389a:/home/doc-bd-a1/eda-in-2.txt bd-a1/service-result/
+
 docker cp cc192d1c389a:/home/doc-bd-a1/eda-in-3.txt bd-a1/service-result/
+
 docker cp cc192d1c389a:/home/doc-bd-a1/vis.png bd-a1/service-result/
+
 docker cp cc192d1c389a:/home/doc-bd-a1/k.txt bd-a1/service-result/
 
 
